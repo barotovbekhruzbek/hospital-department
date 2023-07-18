@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+@import './lib/var';
+@import './lib/grid';
+@import './lib/main';
+@import './lib/text';
+
+@import './blocks/button';
+@import './blocks/form';
+@import './blocks/card';
+@import './blocks/box';
+@import './blocks/table';
+@import './blocks/modal';
+
+// @import './page/auth';
+@import './page/view';
+
+// @import './blocks/aside';
+// @import './blocks/header';

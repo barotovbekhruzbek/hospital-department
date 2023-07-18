@@ -1,0 +1,17 @@
+.card{
+    background: rgb(184, 195, 255);
+    border-radius:8px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    .title{
+        font-size: 14px;
+        color: #25282B;
+        margin-bottom: 4px;   
+    }
+    .nums{
+        font-size: 18px;
+        color:#336CFB
+    }
+}
